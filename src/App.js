@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={BookList} />
-          <Route exact path="/details/:id" component={BookDetail} />
+          <Route exact path="/books/:id" component={BookDetail} />
           <Route path="*" component={NotFound} />
         </Switch>
       
