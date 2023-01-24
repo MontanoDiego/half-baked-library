@@ -28,10 +28,12 @@ function Book({
       )}
       {showDetail && (
         <>
+          <h1>{title}</h1>
           <p>Rating: {rating}</p>
           <p>ISBN: {isbn}</p>
           <p>Published {publishedDate}</p>
           <p>{totalPages} pages</p>
+          <Link to={'/'} >Back to book list!</Link>
         </>
       )}
     </article>
